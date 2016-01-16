@@ -1,0 +1,21 @@
+tabbedPane.addTab("New tab", null, scrollPane, null);
+		
+		JScrollPane scrollPane_1 = new JScrollPane();
+		tabbedPane.addTab("New tab", null, scrollPane_1, null);
+		
+		JTextArea textArea = new JTextArea();
+		scrollPane_1.setViewportView(textArea);
+		frame.setVisible(true);
+		
+		
+		
+		
+	public void FileNewAction(JTabbedPane tabbedPane) {
+		textArea=  new JTextArea();
+		JScrollPane scrollPane = new JScrollPane();
+		tabbedPane.addTab(NewFileName, null, scrollPane, null);
+		scrollPane.setViewportView(textArea);
+	}
+	
+	
+	i
