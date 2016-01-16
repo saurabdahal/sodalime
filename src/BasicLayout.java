@@ -199,6 +199,7 @@ public class BasicLayout {
 			public void mouseClicked(MouseEvent e){
 				Tab temp = tablist.get(tabbedPane.getSelectedIndex());
 				FileAction fa = new FileAction();
+				
 				fa.FileSaveaction(temp);
 			}
 		});
